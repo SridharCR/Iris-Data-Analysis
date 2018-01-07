@@ -290,27 +290,27 @@ $(document).ready(function () {
 <div id="scatterplot" class="section level2">
 <h2>Scatterplot</h2>
 <p>By using scatterplots,we can find how much the parameters are correlated</p>
-<div id="plot_id377455080-container" class="ggvis-output-container">
-<div id="plot_id377455080" class="ggvis-output"></div>
+<div id="plot_id582905895-container" class="ggvis-output-container">
+<div id="plot_id582905895" class="ggvis-output"></div>
 <div class="plot-gear-icon">
 <nav class="ggvis-control">
 <a class="ggvis-dropdown-toggle" title="Controls" onclick="return false;"></a>
 <ul class="ggvis-dropdown">
 <li>
 Renderer: 
-<a id="plot_id377455080_renderer_svg" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id377455080" data-renderer="svg">SVG</a>
+<a id="plot_id582905895_renderer_svg" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id582905895" data-renderer="svg">SVG</a>
  | 
-<a id="plot_id377455080_renderer_canvas" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id377455080" data-renderer="canvas">Canvas</a>
+<a id="plot_id582905895_renderer_canvas" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id582905895" data-renderer="canvas">Canvas</a>
 </li>
 <li>
-<a id="plot_id377455080_download" class="ggvis-download" data-plot-id="plot_id377455080">Download</a>
+<a id="plot_id582905895_download" class="ggvis-download" data-plot-id="plot_id582905895">Download</a>
 </li>
 </ul>
 </nav>
 </div>
 </div>
 <script type="text/javascript">
-var plot_id377455080_spec = {
+var plot_id582905895_spec = {
   "data": [
     {
       "name": ".0",
@@ -457,31 +457,31 @@ var plot_id377455080_spec = {
   },
   "handlers": null
 };
-ggvis.getPlot("plot_id377455080").parseSpec(plot_id377455080_spec);
+ggvis.getPlot("plot_id582905895").parseSpec(plot_id582905895_spec);
 </script>
 <p>The Sepal Length and Sepal width are some what correlated but not that much,we can see that the setosa, is completely separated since they have small sepal length and small sepal width than other species.But the real problem is that the virgincia,versicolor species were mixed apart.Hence we move to the next parameters.</p>
 <pre class="r"><code>iris %&gt;% ggvis(~Petal.Length,~Petal.Width,fill = ~Species) %&gt;% layer_points()</code></pre>
-<p><div id="plot_id695993645-container" class="ggvis-output-container">
-<div id="plot_id695993645" class="ggvis-output"></div>
+<p><div id="plot_id189912279-container" class="ggvis-output-container">
+<div id="plot_id189912279" class="ggvis-output"></div>
 <div class="plot-gear-icon">
 <nav class="ggvis-control">
 <a class="ggvis-dropdown-toggle" title="Controls" onclick="return false;"></a>
 <ul class="ggvis-dropdown">
 <li>
 Renderer: 
-<a id="plot_id695993645_renderer_svg" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id695993645" data-renderer="svg">SVG</a>
+<a id="plot_id189912279_renderer_svg" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id189912279" data-renderer="svg">SVG</a>
  | 
-<a id="plot_id695993645_renderer_canvas" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id695993645" data-renderer="canvas">Canvas</a>
+<a id="plot_id189912279_renderer_canvas" class="ggvis-renderer-button" onclick="return false;" data-plot-id="plot_id189912279" data-renderer="canvas">Canvas</a>
 </li>
 <li>
-<a id="plot_id695993645_download" class="ggvis-download" data-plot-id="plot_id695993645">Download</a>
+<a id="plot_id189912279_download" class="ggvis-download" data-plot-id="plot_id189912279">Download</a>
 </li>
 </ul>
 </nav>
 </div>
 </div>
 <script type="text/javascript">
-var plot_id695993645_spec = {
+var plot_id189912279_spec = {
   "data": [
     {
       "name": ".0",
@@ -628,7 +628,7 @@ var plot_id695993645_spec = {
   },
   "handlers": null
 };
-ggvis.getPlot("plot_id695993645").parseSpec(plot_id695993645_spec);
+ggvis.getPlot("plot_id189912279").parseSpec(plot_id189912279_spec);
 </script> Check this,this scatterplot is pretty good,which separates the species and forms a perfect correlation line.</p>
 </div>
 <div id="correlations" class="section level2">
