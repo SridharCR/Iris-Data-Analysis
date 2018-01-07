@@ -2,15 +2,13 @@
 title: "Data Analysis on Iris Flowers"
 author: "Sridhar"
 date: "7 January 2018"
-output: 
-  html_document:
-    keep_md: true
+output: html_document
 ---
 
 ## Load the data
 
 ```{r iris}
-iris
+head(iris)
 ```
 
 ## Scatterplot
