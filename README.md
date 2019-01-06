@@ -6,6 +6,6 @@ By using machine learning strategies, this dataset has been classified according
 ## Structure
 * Dataset - iris.data.csv
 * Analysis Report 
-> Data Analysis on Iris Flowers.pdf - In pdf format
-> sri1.html - In html format
-> sri1.Rmd - In R Markdown format
+> * Data Analysis on Iris Flowers.pdf - In pdf format
+> * sri1.html - In html format
+> * sri1.Rmd - In R Markdown format
